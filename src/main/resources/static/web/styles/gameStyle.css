@@ -1,0 +1,120 @@
+.buttonHide{
+    display:none;
+}
+
+.clickSelected{
+    background-color: green;
+}
+
+.notHit{
+    background-color:yellowgreen;
+}
+
+.shipHit{
+    background-color:darkred;
+}
+
+#bodyhome{
+    width:100vw;
+    height:100vh;
+    background-image: url(images/map.jpg);
+    background-blend-mode:normal;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+#msgStatus{
+    width:80%;
+    
+     
+}
+
+#msgStatus p{
+    margin:0;
+    padding:1%;
+    font-family: titleFont;
+    font-weight: bold;
+    text-align:center;
+    
+}
+
+h1{
+    color:black;
+    font-family: titleFont;
+}
+
+#returnButton{
+    font-family: bearerFont;
+    height:70%;
+    margin-top:0.5%;
+    
+}
+
+#bodyGame{
+    width:100vw;
+    height:100vh;
+    background-image: url(images/gondormap.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    width:100%!important;
+    height:10%;
+    background-color: rgb(247, 169, 118, 0.6);
+    margin:0!important;
+    
+    
+    
+}
+
+.flex-container{
+    height:90%;
+    flex-direction: row;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+#dock{
+    width:20%;
+    background-color: rgb(247, 169, 118, 0.6);
+    
+}
+
+#display{
+    /*], .placeButton, .salvoButton{*/
+    width:70%;
+   
+    
+}
+
+#grid{
+    background-image: url(images/gridBackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+    width:38%;
+}
+
+#gridSalvos{
+    background-image: url(images/siege06.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+    width:38%;
+}
+
+@font-face{
+    font-family: titleFont;
+    src: url(fonts/middle.ttf);
+}
+
+@font-face{
+    font-family: ringFont;
+    src: url(fonts/onering.ttf);
+}
+
+@font-face{
+    font-family: bearerFont;
+    src: url(fonts/ringbearer.ttf);
+}

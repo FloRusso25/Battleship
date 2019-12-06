@@ -1,0 +1,85 @@
+.buttonHide{
+    display:none;
+}
+
+#bodyhome{
+    width:100vw;
+    height:100vh;
+    background-image: url(images/map.jpg);
+    background-blend-mode:normal;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+header{
+    background-color:rgba(255,255,255,0.6);
+    height:25%;
+    width:100%;
+}
+
+main{
+    height:75%;
+    width:100%;
+}
+
+.title{
+    color:black;
+    font-family: titleFont;
+    text-align: center;
+}
+
+.text{
+    font-family: bearerFont;
+}
+
+.scrollable{
+    overflow-y:scroll;
+}
+
+.scrollable thead th{
+    position:sticky;
+    top:-0.2vh;;
+    background-color:rgba(255,255,255,1);
+}
+
+#gameTable{
+    height:33%;
+    background-color:rgba(255,255,255,0.6);
+    
+}
+
+#gamesList{
+    height:30%;
+    background-color:rgba(255,255,255,0.6);
+    margin-bottom:2%;
+    
+}
+
+#buttons{
+   height:13%; 
+    padding-top:1%;
+    padding-bottom:1%;
+}
+
+
+
+.btn{
+    font-family: bearerFont;
+    color:black;
+    background-color:gray;
+    border-color: black;
+}
+
+@font-face{
+    font-family: titleFont;
+    src: url(fonts/middle.ttf);
+}
+
+@font-face{
+    font-family: ringFont;
+    src: url(fonts/onering.ttf);
+}
+
+@font-face{
+    font-family: bearerFont;
+    src: url(fonts/ringbearer.ttf);
+}

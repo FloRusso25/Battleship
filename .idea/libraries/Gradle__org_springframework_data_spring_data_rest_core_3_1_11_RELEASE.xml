@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.springframework.data:spring-data-rest-core:3.1.11.RELEASE">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-rest-core/3.1.11.RELEASE/270cc1c45ebe83e1e3727eb7acb00d45508e0a23/spring-data-rest-core-3.1.11.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-rest-core/3.1.11.RELEASE/fe7e73766c4669ff5248578a1bbd92aa8e8869ec/spring-data-rest-core-3.1.11.RELEASE-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
